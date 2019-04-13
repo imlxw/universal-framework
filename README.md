@@ -85,7 +85,7 @@
 - Microservices中，RPC远程调用是通过新浪的motan、或阿里的dubbo来完成的
 - Microservices的数据库读取是依赖于JFinal，所以实际上只要是JFinal支持的数据库类型，Microservices都会支持
 - Db + Record 模式 Db 类及其配套的 Record 类，提供了在 Model 类之外更为丰富的数据库操作功能。使用Db 与 Record 类时，无需对数据库表进行映射，Record 相当于一个通用的 Model
-- Microservices中，分表是通过sharding-jdbc（ 网址：https://github.com/shardingjdbc/sharding-jdbc） 来实现的，所以，在了解Microservices的分表之前，请先阅读了解sharding-jdbc的配置信息
+- Microservices中，分表是通过sharding-jdbc 网址：https://github.com/shardingjdbc/sharding-jdbc 来实现的，所以，在了解Microservices的分表之前，请先阅读了解sharding-jdbc的配置信息
 - Microservices 的AOP功能，是使用了Google的Guice框架来完成的，通过AOP，我们可以轻易的在微服务体系中监控api的调用，轻易的使用@Cacheable，@CachePut，@CacheEvict等注解完成对代码的配置
 - Microservices中已经内置了高性能服务器undertow，undertow的性能比tomcat高出很多（具体自行搜索：undertow vs tomcat），所以microservices构建和部署等不再需要tomcat。在Microservices构建的时候，在linux平台下，会生成microservices.sh 在windows平台下会生成microservices.bat脚本，直接执行该脚本即可
 - Microservices的监控机制是通过metric来来做监控的，要启用metric非常简单，通过在microservices.properties文件配置上microservices.metric.url就可以启用metric
