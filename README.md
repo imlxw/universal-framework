@@ -80,7 +80,7 @@
 ### 开发文档及部署文档下载
 - https://share.weiyun.com/5cIfgaF
 
-### 
+### 项目介绍
 - Microservices中，已经内置了统一配置中心，当中心配置文件修改后，分布式服务下的所有有用的额配置都会被修改。在某些情况下，如果统一配置中心出现宕机等情况，微服务将会使用本地配置文件当做当前配置信息
 - Microservices中，RPC远程调用是通过新浪的motan、或阿里的dubbo来完成的
 - Microservices的数据库读取是依赖于JFinal，所以实际上只要是JFinal支持的数据库类型，Microservices都会支持
