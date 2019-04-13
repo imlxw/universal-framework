@@ -1,0 +1,5 @@
+com\microservices\b2c\ShopApp.class
+com\microservices\b2c\support\JwtAuthorizingRealm.class
+com\microservices\b2c\support\JwtShiroInvokeListener.class
+com\microservices\b2c\config\JfinalConfigListener.class
+com\microservices\b2c\controller\MainController.class

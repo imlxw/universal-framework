@@ -1,0 +1,4 @@
+com\microservices\wechat\config\JfinalConfigListener.class
+com\microservices\wechat\controller\wechat\WeixinMsgController.class
+com\microservices\wechat\WechatApp.class
+com\microservices\wechat\controller\wechat\UserController.class

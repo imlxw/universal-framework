@@ -1,0 +1,2 @@
+microservicesConsumerOpentracing=com.microservices.core.rpc.dubbo.MicroservicesDubboConsumerTracingFilter
+microservicesProviderOpentracing=com.microservices.core.rpc.dubbo.MicroservicesDubboProviderTracingFilter

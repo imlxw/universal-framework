@@ -1,0 +1,4 @@
+com\microservices\b2c\service\entity\status\ProductStatus.class
+com\microservices\b2c\service\entity\model\base\BaseProduct.class
+com\microservices\b2c\service\entity\model\Product.class
+com\microservices\b2c\service\entity\GenCode.class

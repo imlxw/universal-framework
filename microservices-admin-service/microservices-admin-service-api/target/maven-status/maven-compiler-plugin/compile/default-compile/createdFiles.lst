@@ -1,0 +1,8 @@
+com\microservices\admin\service\api\ge\GenCode.class
+com\microservices\admin\service\api\ResService.class
+com\microservices\admin\service\api\UserRoleService.class
+com\microservices\admin\service\api\UserService.class
+com\microservices\admin\service\api\DataService.class
+com\microservices\admin\service\api\RoleService.class
+com\microservices\admin\service\api\RoleResService.class
+com\microservices\admin\service\api\LogService.class

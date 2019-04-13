@@ -1,0 +1,14 @@
+package #(serviceImplPackageName);
+
+import com.microservices.aop.annotation.Bean;
+import #(basePackage).#(tableMeta.modelName)Service;
+import #(modelPackage).#(tableMeta.modelName);
+import com.microservices.service.MicroservicesServiceBase;
+
+import javax.inject.Singleton;
+
+@Bean
+@Singleton
+public class #(tableMeta.modelName)ServiceImpl extends MicroservicesServiceBase<#(tableMeta.modelName)> implements #(tableMeta.modelName)Service {
+
+}

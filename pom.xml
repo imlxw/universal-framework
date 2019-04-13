@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.microservices.admin</groupId>
+    <artifactId>microservices-admin-parent</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    <name>microservices-admin-parent</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <slf4j-log4j12.version>1.7.25</slf4j-log4j12.version>
+        <logback.version>1.2.3</logback.version>
+    </properties>
+
+    <modules>
+		<module>microservices-core</module>
+        <module>microservices-admin-base</module>
+        <module>microservices-admin</module>
+        <module>microservices-admin-service</module>
+        <module>microservices-wechat</module>
+        <module>microservices-b2c-service</module>
+        <module>microservices-b2c</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+            </dependency>
+			<!--
+            <dependency>
+                <groupId>com.microservices</groupId>
+                <artifactId>microservices</artifactId>
+                <version>${microservices.version}</version>
+            </dependency>
+			-->
+			<dependency>
+				<groupId>com.microservices</groupId>
+				<artifactId>microservices-core</artifactId>
+				<version>1.0</version>
+			</dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>eu.bitwalker</groupId>
+                <artifactId>UserAgentUtils</artifactId>
+                <version>1.21</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+	 <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

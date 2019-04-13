@@ -1,0 +1,12 @@
+com\microservices\admin\service\provider\LogServiceImpl.class
+com\microservices\admin\service\provider\UserServiceImpl$2.class
+com\microservices\admin\service\provider\app\StartProviderApp.class
+com\microservices\admin\service\provider\UserServiceImpl.class
+com\microservices\admin\service\provider\UserRoleServiceImpl.class
+com\microservices\admin\service\provider\ge\GenCode.class
+com\microservices\admin\service\provider\DataServiceImpl.class
+com\microservices\admin\service\provider\ResServiceImpl.class
+com\microservices\admin\service\provider\RoleServiceImpl.class
+com\microservices\admin\service\provider\RoleResServiceImpl.class
+com\microservices\admin\service\provider\RoleServiceImpl$1.class
+com\microservices\admin\service\provider\UserServiceImpl$1.class
